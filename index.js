@@ -18,7 +18,7 @@ function currentLine(line) {
   if(line.length === 0) {
     return "The line is currently empty."
   } else {
-    line.map((name, index) => `${index}. )
+    line.map((name, index) => `${index}. ${name}, `)
     return `The line is currently: ${nameAndNumber}`
   }
   
