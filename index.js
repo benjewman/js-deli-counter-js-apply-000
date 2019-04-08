@@ -26,3 +26,5 @@ function currentLine(line) {
   }
   
 }
+
+var square = (n) => n * n
