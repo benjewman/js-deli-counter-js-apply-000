@@ -18,10 +18,7 @@ function currentLine(line) {
   if(line.length === 0) {
     return "The line is currently empty."
   } else {
-    for(let i = 0; i < line.length - 1; i++) {
-      nameAndNumber += `${i + 1}. ${line[i]}, `
-    }
-    nameAndNumber += `${line.length}. ${line[line.length - 1]}`
+    line.map((name, index) => `${index}. )
     return `The line is currently: ${nameAndNumber}`
   }
   
